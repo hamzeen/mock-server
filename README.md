@@ -2,27 +2,17 @@
 
 
 
-## Pre-requisites
-* Node.js: If you haven’t installed them, you can install from [here](https://nodejs.org/en/download/package-manager/)
-<br />
-
 ## Getting started
-Basically this project contains RESTful APIs for CRUD operations which developed using Mongoose and Express.js. 
+NOTE: Please make sure you have NodeJS installed your machine. If this not the case, 
+you can download & install it from [here](https://nodejs.org/en/download).
 
 Open your terminal and follow the following steps.
-1. Clone this project to your computer \
-`git clone https://github.com/hamzeen/mock-server.git`
 
-2. Navigate to the project folder \
-`cd mock-server`
-
-3. Install the relevant node modules \
-`npm install`
-
-4. Start the server \
-`npm start`
-
-<br />
+* ```git clone https://github.com/hamzeen/mock-server.git```
+* ```cd mock-server```
+* ```npm install```
+* ```npm start```
+* server runs on: <http://localhost:3000>
 
 
 ## What is REST?
