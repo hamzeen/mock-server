@@ -6,7 +6,7 @@
 NOTE: Please make sure you have NodeJS installed your machine. If this not the case, 
 you can download & install it from [here](https://nodejs.org/en/download).
 
-Open your terminal and follow the following steps.
+Open your terminal and follow these steps.
 
 * ```git clone https://github.com/hamzeen/mock-server.git```
 * ```cd mock-server```
