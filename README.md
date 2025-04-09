@@ -1,6 +1,30 @@
 # Mock API Development using Express.js
 
 
+
+## Pre-requisites
+* Node.js: If you haven’t installed them, you can install from [here](https://nodejs.org/en/download/package-manager/)
+<br />
+
+## Getting started
+Basically this project contains RESTful APIs for CRUD operations which developed using Mongoose and Express.js. 
+
+Open your terminal and follow the following steps.
+1. Clone this project to your computer \
+`git clone https://github.com/hamzeen/mock-server.git`
+
+2. Navigate to the project folder \
+`cd mock-server`
+
+3. Install the relevant node modules \
+`npm install`
+
+4. Start the server \
+`npm start`
+
+<br />
+
+
 ## What is REST?
 **REST**, or Representational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server. We will go into what these terms mean and why they are beneficial characteristics for services on the Web.
 
@@ -27,9 +51,6 @@ Let’s see some of the core features of Express framework
 * It allows to dynamically render HTML Pages based on passing arguments to templates.
 <br />
 
-## Express.js Architecture
-![](https://s3-eu-west-1.amazonaws.com/jssolutions/Article_Photo/Mobile+app+development+with+Express.js/express+js+mobile+development.jpg)
-<br />
 
 ## Advantages of Express.js?
 * Ultra-fast I/O
@@ -42,30 +63,3 @@ Let’s see some of the core features of Express framework
 * Node.js
 * Postman
 <br />
-
-## Pre-requisites
-Node.js should be installed. If you haven’t installed them, you can install from the below URL.
-* [Node.js](https://nodejs.org/en/download/package-manager/)
-<br />
-
-## Getting started
-Basically this project contains RESTful APIs for CRUD operations which developed using Mongoose and Express.js. 
-
-Open your terminal and follow the following steps.
-1. Clone this project to your computer \
-**`git clone https://github.com/osandadeshan/mock-server-demo.git`**
-
-2. Navigate to the project folder \
-**`cd mock-server-demo`**
-
-3. Install the relevant node modules \
-**`npm install`**
-
-4. Start the server \
-**`npm start`** \
-Then you will see \
-**Mock server started on: 3000**
-<br />
-
-## Testing via Postman
-Now that everything is now connected, let’s test each of the routes and the respective methods.
