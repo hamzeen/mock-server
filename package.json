@@ -1,22 +1,18 @@
 {
-  "name": "mock-server-demo",
+  "name": "mock-server",
   "version": "1.0.0",
-  "description": "Sample project to demo Mock API development using express",
+  "description": "Simple REST mock server running on ExpressJS",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Osanda Deshan",
-  "license": "ISC",
+  "author": "Hamzeen. H.",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "express-healthcheck": "^0.1.0",
-    "lodash": "^4.17.20",
-    "mongoose": "^5.7.5",
-    "require-header": "^1.0.4"
+    "express": "^4.17.1"
   }
 }

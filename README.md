@@ -40,15 +40,12 @@ Let’s see some of the core features of Express framework
 
 ## Tools/Technologies
 * Node.js
-* MongoDB
-* Text editor (Notepad++, Sublime, Atom, VSCode)
 * Postman
 <br />
 
 ## Pre-requisites
-Node.js and MongoDB should be installed. If you haven’t installed them, you can install from the below URLs.
+Node.js should be installed. If you haven’t installed them, you can install from the below URL.
 * [Node.js](https://nodejs.org/en/download/package-manager/)
-* [MongoDB](https://docs.mongodb.com/manual/installation/)
 <br />
 
 ## Getting started
@@ -72,50 +69,3 @@ Then you will see \
 
 ## Testing via Postman
 Now that everything is now connected, let’s test each of the routes and the respective methods.
-
-1. **GET Health**
-***GET http://localhost:3000/health***
-
-![Health](https://user-images.githubusercontent.com/9147189/103358772-64d6ee80-4adc-11eb-9d78-dbb855de566d.png)
-
-2. **GET Authentication Token**
-***GET http://localhost:3000/auth***
-
-![GET](https://user-images.githubusercontent.com/9147189/103358678-348f5000-4adc-11eb-8454-9fa9f43873da.png)
-
-3. **GET All Tasks**
-***GET http://localhost:3000/tasks***
-
-***Mandatory Headers:-***
-   |Header Name	  |Header Value															  |
-   |--------------|-----------------------------------------------------------------------|
-   |Authorization |Bearer 5aa8220420419fd5890bb88a1767ed7cb1abc4412024bfff91513a40d6e19823|
-   |App-Name  	  |IntelliAPI    														  |
-   |Organization  |MaxSoft    															  |
-
-![GET](https://user-images.githubusercontent.com/9147189/103358638-175a8180-4adc-11eb-8bf5-9cd44c7b1eb5.png)
-
-4. **POST A Task**
-***POST http://localhost:3000/tasks***
-
-***Mandatory Headers:-***
-   |Header Name	  |Header Value															  |
-   |--------------|-----------------------------------------------------------------------|
-   |Authorization |Bearer 5aa8220420419fd5890bb88a1767ed7cb1abc4412024bfff91513a40d6e19823|
-   |App-Name  	  |IntelliAPI    														  |
-   |Organization  |MaxSoft    															  |
-
-***JSON Request Body:-***
-```json
-{
-    "status": [
-        "In Progress"
-    ],
-    "name": "IntelliAPI framework for codeless API automation",
-    "category": "IntelliAPI",
-    "isDeleted": false,
-    "__v": 1.3
-}
-```   
-
-![GET](https://user-images.githubusercontent.com/9147189/103358541-d5c9d680-4adb-11eb-91da-bfc043e80a5a.png)
