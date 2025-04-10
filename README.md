@@ -49,8 +49,3 @@ Let’s see some of the core features of Express framework
 * MVC like structure
 * Robust API makes routing easy
 <br />
-
-## Tools/Technologies
-* Node.js
-* Postman
-<br />
