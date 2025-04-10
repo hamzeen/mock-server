@@ -1,16 +1,19 @@
 {
   "name": "mock-server",
   "version": "1.0.0",
-  "description": "Simple REST mock server running on ExpressJS",
-  "main": "server.js",
+  "description": "Express.js mock server written in TypeScript",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "tsc && node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "author": "Hamzeen. H.",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "express": "^4.17.1"
